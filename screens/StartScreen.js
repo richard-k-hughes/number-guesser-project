@@ -1,11 +1,12 @@
 import {View, TextInput} from "react-native";
+import PrimaryButton from "../components/PrimaryButton";
 
 const StartScreen = () => {
     return (
         <View>
-        <TextInput>
-            Button Placeholders
-        </TextInput>
+        <TextInput />
+            <PrimaryButton>Reset</PrimaryButton>
+            <PrimaryButton>Confirm</PrimaryButton>
     </View>
     );
 }
